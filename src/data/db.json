@@ -1,0 +1,221 @@
+{
+  "users": [
+    {
+      "id": "41",
+      "username": "arjun_dev",
+      "fullName": "Arjun Kumar",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "bio": "Frontend developer | React enthusiast",
+      "followers": 1245,
+      "following": 340,
+      "posts": 58
+    },
+    {
+      "id": "42",
+      "username": "priya.codes",
+      "fullName": "Priya Sharma",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "bio": "UI/UX Designer ✨ | Chennai",
+      "followers": 3421,
+      "following": 210,
+      "posts": 112
+    },
+    {
+      "id": "43",
+      "username": "rahul_travels",
+      "fullName": "Rahul Nair",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "bio": "Exploring one city at a time 🌍",
+      "followers": 8907,
+      "following": 512,
+      "posts": 203
+    },
+    {
+      "id": "44",
+      "username": "sneha_eats",
+      "fullName": "Sneha Reddy",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "bio": "Food blogger | Hyderabad 🍛",
+      "followers": 5670,
+      "following": 190,
+      "posts": 89
+    }
+  ],
+  "followers": [
+    {
+      "id": "3",
+      "username": "rahul_travels",
+      "fullName": "Rahul Nair",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "image": "/src/assets/post3.jpg"
+    },
+    {
+      "id": "4",
+      "username": "sneha_eats",
+      "fullName": "Sneha Reddy",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "image": "/src/assets/post4.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "username": "arjun_dev",
+      "fullName": "Arjun Kumar",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "image": "/src/assets/post1.jpg"
+    },
+    {
+      "id": "2",
+      "username": "priya.codes",
+      "fullName": "Priya Sharma",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "image": "/src/assets/post2.jpg"
+    },
+    {
+      "id": "3",
+      "username": "rahul_travels",
+      "fullName": "Rahul Nair",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "image": "/src/assets/post3.jpg"
+    },
+    {
+      "id": "4",
+      "username": "sneha_eats",
+      "fullName": "Sneha Reddy",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "image": "/src/assets/post4.jpg"
+    }
+  ],
+  "profile": {
+    "id": 21,
+    "username": "Pyro_girl",
+    "fullName": "Priya",
+    "avatar": "src\\assets\\Instadp4.jpg",
+    "bio": "Food blogger | Hyderabad 🍛",
+    "followers": 5670,
+    "following": 190,
+    "posts": 89
+  },
+  "suggestions": [
+    {
+      "id": "31",
+      "username": "dev_raj",
+      "fullName": "Deva Raj",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "bio": "Frontend developer | React enthusiast",
+      "followers": 1245,
+      "following": 340,
+      "posts": 58
+    },
+    {
+      "id": "32",
+      "username": "code.io",
+      "fullName": "Surya",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "bio": "UI/UX Designer ✨ | Chennai",
+      "followers": 3421,
+      "following": 210,
+      "posts": 112
+    },
+    {
+      "id": "33",
+      "username": "rocky_beat",
+      "fullName": "Rocky Bhaiiii",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "bio": "Exploring one city at a time 🌍",
+      "followers": 8907,
+      "following": 512,
+      "posts": 203
+    }
+  ],
+  "posts": [
+    {
+      "id": "101",
+      "userId": 1,
+      "username": "arjun_dev",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "image": "https://picsum.photos/id/201/600/600",
+      "caption": "Finally shipped my side project 🚀 #react #webdev",
+      "likes": 342,
+      "liked": false,
+      "timestamp": "2026-09-14T10:30:00Z",
+      "comments": [
+        {
+          "id": 1,
+          "username": "priya.codes",
+          "text": "This looks amazing! 🔥"
+        },
+        {
+          "id": 2,
+          "username": "rahul_travels",
+          "text": "Congrats bro 👏"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "userId": 2,
+      "username": "priya.codes",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "image": "https://picsum.photos/id/202/600/600",
+      "caption": "New portfolio design, feedback welcome!",
+      "likes": 578,
+      "liked": true,
+      "timestamp": "2026-09-14T08:15:00Z",
+      "comments": [
+        {
+          "id": 1,
+          "username": "arjun_dev",
+          "text": "Clean UI, love it"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "userId": 3,
+      "username": "rahul_travels",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "image": "https://picsum.photos/id/203/600/600",
+      "caption": "Sunset in Munnar 🌄 #kerala #travelgram",
+      "likes": 1204,
+      "liked": false,
+      "timestamp": "2026-09-13T18:45:00Z",
+      "comments": [
+        {
+          "id": 1,
+          "username": "sneha_eats",
+          "text": "Breathtaking view!"
+        },
+        {
+          "id": 2,
+          "username": "priya.codes",
+          "text": "Adding this to my bucket list"
+        },
+        {
+          "id": 3,
+          "username": "arjun_dev",
+          "text": "🔥🔥🔥"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "userId": 4,
+      "username": "sneha_eats",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "image": "https://picsum.photos/id/204/600/600",
+      "caption": "Homemade biryani hits different 🍚",
+      "likes": 890,
+      "liked": true,
+      "timestamp": "2026-09-13T13:00:00Z",
+      "comments": [
+        {
+          "id": 1,
+          "username": "rahul_travels",
+          "text": "Save some for me!"
+        }
+      ]
+    }
+  ]
+}
